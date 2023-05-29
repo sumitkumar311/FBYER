@@ -1,0 +1,132 @@
+.home-section{
+    background: linear-gradient(90deg, rgb(250, 218, 227) 4%, rgb(245, 238, 240) 76%);
+}
+.feature{
+    background: linear-gradient(90deg, rgb(250, 218, 227) 4%, rgb(245, 238, 240) 76%);
+}
+.gallery{
+    background: linear-gradient(90deg, rgb(250, 218, 227) 4%, rgb(245, 238, 240) 76%);
+}
+.contact{
+    background: linear-gradient(90deg, rgb(250, 218, 227) 4%, rgb(245, 238, 240) 76%);
+}
+html{
+    scroll-behavior: smooth;
+}
+.footer{
+    background: black;
+   
+}
+.footer-end{
+    background: black;
+   
+}
+
+
+/*zoom hover effect */
+.sum-zo img{
+    transform: scale(0.8);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.sum-zo:hover img{
+    transform: scale(1);
+}
+
+.pr-img{
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    
+}
+.pr-img img{
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.pr-img:hover img{
+    transform: scale(1);
+}
+.nav-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.nav-logo span{
+    cursor: pointer;
+}
+.nav-link a{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-link a:hover{
+    color: crimson;
+}
+
+/* image background change hover */
+
+.hover-animation{
+    position: relative;
+    height: 570px;
+    width: 570px;
+    margin: 10% auto 0;
+    margin-top: 0; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.hover-animation img{
+    position: absolute;
+    height: 570px;
+    width: 570px;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out ;
+    -moz-transition: opacity 1s ease-in-out ;
+    -ms-transition: opacity 1s ease-in-out ;
+    -o-transition: opacity 1s ease-in-out ;
+    transition: opacity 1s ease-in-out ;
+
+}
+.hover-animation img.img-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* float effect */
+
+.about-img img{
+    animation: floatImage 4s ease-in-out infinite;
+    width: 500px;
+    border-radius: 5%;
+    
+ }
+ @keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+ }
+
+ .prices-img img.price-img{
+    width: 500px;
+
+ }
+ .heading{
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+}
+.heading span{
+    color: crimson;
+}
+
